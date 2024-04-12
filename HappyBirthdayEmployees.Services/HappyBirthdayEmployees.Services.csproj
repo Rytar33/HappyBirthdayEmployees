@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HappyBirthdayEmployees.DiscordBot\HappyBirthdayEmployees.DiscordBot.csproj" />
+      <ProjectReference Include="..\HappyBirthdayEmployees.EmployeesDbConnection\HappyBirthdayEmployees.EmployeesDbConnection.csproj" />
+      <ProjectReference Include="..\HappyBirthdayEmployees.ExportTools\HappyBirthdayEmployees.ExportTools.csproj" />
+      <ProjectReference Include="..\HappyBirthdayEmployees.Models\HappyBirthdayEmployees.Models.csproj" />
+      <ProjectReference Include="..\HappyBirthdayEmployees.TelegramBot\HappyBirthdayEmployees.TelegramBot.csproj" />
+    </ItemGroup>
+
+</Project>
